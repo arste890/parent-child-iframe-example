@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parent Page</title>
+</head>
+<body>
+    <p>Hello World! I'm the Parent Page</p>
+    <iframe id="myIframe" src="file:///Users/arste890/Documents/GitHub/parent-child-iframe-example/child.html" style="width:100%; border:none;"></iframe>
+
+    <script>
+        window.onmessage = function(e) {
+            if (e.data[0] == "setIframeHeight") {
+                document.getElementById("myIframe").style.height = e.data[1] + "px";
+            }
+        };
+    </script>
+</body>
+</html>
