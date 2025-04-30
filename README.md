@@ -53,7 +53,3 @@ Website: [IT.StevensED.org](https://IT.StevensED.org)
 ---
 
 © 2025 | StevensED LLC | StevensIT | All rights reserved.
-
-
-© 2025 StevensED LLC | StevensIT. All rights reserved.
-
